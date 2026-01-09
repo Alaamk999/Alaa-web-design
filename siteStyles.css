@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+color:white;
+font-size:50px;
+text-align: center;
+
+}
+
+body {
+background-color: black;
+
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+p {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+
+
+}
+
+form {
+    color: white;
+    text-align: center;
+}
+
+iframe {
+    border: solid 6px rgb(137, 0, 0);
+ 
+}
+
+textarea {
+    border : solid 3px rgb(137, 0, 0);
+    outline: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"]  {
+    border: solid 3px rgb(137, 0, 0);
+    padding: 5px;
+    outline: none;
+}
+
+input[type="radio"],
+input[type="checkbox"]  {
+    outline: solid 2px rgb(137, 0, 0);
+    margin: 5px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+a {
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+}
+
