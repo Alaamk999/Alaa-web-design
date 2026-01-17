@@ -77,4 +77,18 @@ a {
     display: block;
     margin-top: 20px;
 }
+ body{
+    background-image: url("Images/Photo1.png");
+    background-repeat: no-repeat;
+    background-size: 50% auto; 
+    background-position: center center;
+    min-height: 100vh;
+    margin: 0;
+
+    background-image: url("Images/background3.jpg");
+    background-size: cover;
+
+}
+ 
+
 
