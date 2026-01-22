@@ -167,6 +167,17 @@ h2 {
     display: block;
 }
 
+
+body[style*="background-color: white"] * {
+    color: black !important;
+}
+
+button {
+     border : solid 3px rgb(137, 0, 0);
+    outline: none;
+    font-weight: bold;
+}
+
 @media (max-width: 960px) {
 .parent {
     grid-template-columns: 1fr 1fr;
