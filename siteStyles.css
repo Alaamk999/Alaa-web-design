@@ -89,6 +89,100 @@ a {
     background-size: cover;
 
 }
- 
 
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    padding-left: 0px;
+    background: rgba(137, 0, 0,0.6);
+    margin-bottom: 40px;
+}
+nav a {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    margin-right: 200px;
 
+}
+nav a :first-of-type{
+    margin-left: auto;
+}
+nav img {
+    width: 120px;
+    height: auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 300px 300px;
+    gap: 15px;
+}
+
+.container img {
+    height: 100%;
+    border-radius: 0;
+    width: 100%;
+}
+
+.container header {
+    background-color:rgb(137, 0, 0);
+    grid-column: 1 / 4;
+}
+h2 {
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+}
+.container div h3 {
+    text-decoration: none;
+    font-weight: normal;
+    margin-top: 5px;
+}
+.container div {
+    text-align: center;
+    font-size: 80px;
+    color: white;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    align-content: start;
+    height: auto;
+}
+
+.parent > div {
+    background-color:rgb(137, 0, 0) ;
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+    margin: 0;
+}
+.parent img {
+    width: 100%;
+    display: block;
+}
+
+@media (max-width: 960px) {
+.parent {
+    grid-template-columns: 1fr 1fr;
+}
+.parent>div {
+    text-align: center;
+    font-size: 90px;
+}
+}
+
+@media (max-width: 600px) {
+.parent {
+    grid-template-columns: 1fr;
+}
+.parent>div {
+    text-align: center;
+    font-size: 60px;
+}
+}
