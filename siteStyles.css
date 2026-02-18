@@ -8,7 +8,29 @@ h1 {
 color:white;
 font-size:50px;
 text-align: center;
+font-family: 'Almarai', sans-serif;
 
+}
+ h3, h4, h5, label, p, legend, span, button, input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+nav a {
+    font-family: 'Montserrat',sans-serif;
+}
+button, input [type="submut"] {
+    font-family: 'Montserrat',sans-serif;
+}
+
+legend, label, .design-title {
+    font-family: 'Montserrat',sans-serif;
+}
+textarea{
+    font-family: 'Montserrat',sans-serif;
 }
 
 body {
@@ -85,7 +107,7 @@ a {
     min-height: 100vh;
     margin: 0;
 
-    background-image: url("Images/background3.jpg");
+    background-image: url("Images/Red&Black.jpg");
     background-size: cover;
 
 }
@@ -196,4 +218,8 @@ button {
     text-align: center;
     font-size: 60px;
 }
+}
+
+label,legend,fieldset,textarea {
+    font-family: 'Montserrat',sans-serif !important;
 }
